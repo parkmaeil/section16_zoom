@@ -24,7 +24,7 @@ public class SecurityConfig {
           // http://localhost:8081/member  요청->로그인?
            .oauth2Login(oauth2->oauth2
                           .loginPage("/")
-                          .defaultSuccessUrl("/")
+                          .defaultSuccessUrl("/user")
                           .permitAll()
            )
            .logout(logout->logout

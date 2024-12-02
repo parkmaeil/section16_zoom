@@ -18,7 +18,7 @@ import java.util.HashSet;
 import java.util.Optional;
 import java.util.Set;
 
-@Service
+//@Service
 public class PrincipalOauth2UserService  extends DefaultOAuth2UserService {
 
     @Autowired

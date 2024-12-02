@@ -20,6 +20,7 @@ public class Member {
     private String password;  // 임의값?(암호화)
     private String uname; //   박매일
     private String email; //  bmy19751975@gmail.com
+    private int age; // ?
     // oAuth2에서 추가 되는 정보
     private String provider; // google, naver, kakao
     private String providerId;// sub=101926511570168785716
